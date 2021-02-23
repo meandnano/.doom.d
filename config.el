@@ -56,4 +56,10 @@
 ;; they are implemented.
 
 ;; Projectile config
+(setq projectile-project-search-path '("~/dev"))
+
+
+;; Evil config
+;;
+;; Faster search mode
 (evil-select-search-module 'evil-search-module 'evil-search)
