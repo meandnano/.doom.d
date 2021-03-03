@@ -58,8 +58,9 @@
 ;; Projectile config
 (setq projectile-project-search-path '("~/dev"))
 
-
 ;; Evil config
 ;;
 ;; Faster search mode
 (evil-select-search-module 'evil-search-module 'evil-search)
+
+(setq lsp-python-ms-auto-install-server t)
