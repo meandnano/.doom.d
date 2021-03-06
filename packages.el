@@ -50,3 +50,4 @@
 ;(unpin! t)
 
 (package! lsp-python-ms)
+(package! python-black)

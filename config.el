@@ -64,3 +64,9 @@
 (evil-select-search-module 'evil-search-module 'evil-search)
 
 (setq lsp-python-ms-auto-install-server t)
+
+;; Python black
+(use-package! python-black
+  :demand t
+  :after python)
+(add-hook! 'python-mode-hook #'python-black-on-save-mode)
