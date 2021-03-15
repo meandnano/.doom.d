@@ -51,3 +51,4 @@
 
 (package! lsp-python-ms)
 (package! python-black)
+(package! pyvenv)
