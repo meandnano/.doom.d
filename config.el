@@ -25,7 +25,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'doom-one)
+(setq doom-theme 'doom-city-lights)
 
 (setq doom-font (font-spec :family "Input Mono Narrow" :size 16))
 
@@ -70,3 +70,11 @@
   :demand t
   :after python)
 (add-hook! 'python-mode-hook #'python-black-on-save-mode)
+
+;; Scala LSP
+(use-package! lsp-metals)
+
+(treemacs-load-theme "all-the-icons")
+(treemacs-follow-mode t)
+
+(setq doom-themes-treemacs-theme "doom-colors")

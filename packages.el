@@ -52,3 +52,8 @@
 (package! lsp-python-ms)
 (package! python-black)
 (package! pyvenv)
+
+(package! lsp-metals)
+
+(package! treemacs-all-the-icons)
+(package! org-reveal)
