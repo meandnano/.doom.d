@@ -57,3 +57,5 @@
 
 (package! treemacs-all-the-icons)
 (package! org-reveal)
+
+(package! flymake-ktlint)

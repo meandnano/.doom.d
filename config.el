@@ -78,3 +78,8 @@
 (treemacs-follow-mode t)
 
 (setq doom-themes-treemacs-theme "doom-colors")
+
+;; Map double space to M-x and set Option key to be Mac Option, not Meta
+(setq mac-option-modifier nil)
+(map! :leader
+      :desc "Open like spacemacs" "SPC" #'counsel-M-x)
